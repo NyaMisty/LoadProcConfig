@@ -1,6 +1,8 @@
 ## Overview
 **LoadProcConfig** is an IDA Plugin to load processor configuration files.
 
+This is a port of original LoadProcConfig to IDA Pro 7.6+: https://github.com/alexhude/LoadProcConfig
+
 With just a couple of clicks configuration files can turn this:
 ![](./Resources/screenshots/lpc_before.png)
 Into this, adding memory regions, entries and registers/ports:
@@ -16,7 +18,7 @@ Current plugin was implemented to address all these issues.
 
 ## Installation
 
-Just copy **LoadProcConfig.pmc** and **LoadProcConfig.pmc64** to IDA plugins folder.
+Just copy **LoadProcConfig.XXX** and **LoadProcConfig64.XXX** to IDA plugins folder.
 
 ## Usage
 
